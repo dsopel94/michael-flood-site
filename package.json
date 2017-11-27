@@ -1,0 +1,28 @@
+{
+  "name": "michael-flood",
+  "version": "1.0.0",
+  "description": "A website for the podiatry office of Michael Flood",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsopel94/michael-flood-site.git"
+  },
+  "keywords": [
+    "podiatry",
+    "clinic"
+  ],
+  "author": "Damian Sopel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsopel94/michael-flood-site/issues"
+  },
+  "homepage": "https://github.com/dsopel94/michael-flood-site#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "owl.carousel": "^2.2.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

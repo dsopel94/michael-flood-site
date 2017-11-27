@@ -1,8 +1,162 @@
 .navbar {
 	height: 150px;
-
+	margin-bottom: 1px;
+	background-color: snow;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
-.hamburger-icon img {
-	height: 100px;
+.hamburger-icon {
+	height: 90px;
+	width: 100px;
+	float: right;
+	margin-top: 80px;
+	display: inline-block;
+}
+
+.line {
+	color: black;
+	background-color: black;
+	height: 10px;
+	width: 60px;
+	margin: 10px 0;
+}
+
+.map-icon, .calendar-icon, .phone-icon {
+	height: 75px;
+	margin-bottom: 7px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.phone-icon {
+	width: 80px;
+	margin-left: 25%;
+}
+
+.map-icon {
+	margin-left: 20%;
+}
+
+.nothing {
+	background-color: grey;
+	height: 1500px;
+}
+
+.icon-container {
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+.other-icons {
+	display: inline-block;
+	margin-left: 70px;
+}
+
+.calendar-icon {
+	margin-left: 30%;
+}
+
+.locations, .appointments, .contact-us {
+	display: block;
+	font-size: 20pt;
+	font-family: 'Work Sans', serif;
+}
+
+.header img {
+	height: 225px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 310px;
+	margin-left: 3%;
+}
+
+.header {
+	background:#DBE6E9;
+}
+
+hr {
+	margin: 0px;
+}
+
+.menu {
+	background-color: gray;
+	padding: 0 auto;
+	overflow: hidden;
+}
+
+.hidden {
+	display: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev, .next {
+  cursor: pointer;
+   position: absolute;
+   width: auto;
+   color: grey;
+   font-size: 70px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   top: 27%;
+   opacity: 20%;
+}
+
+.prev {
+	left: 5px;
+}
+
+.next {
+	right: 5px;
+}
+
+.slide-container {
+	position: relative;
+	opacity: 80%;
+	height: 400px;
+	max-width: 1000px;
+	width: 800px;
+}
+
+.slide {
+	position: absolute;
+	height: 150px;
+	display: none;
+}
+
+.slide-container img {
+	width: 800px;
+	height: 400px;
+}
+
+.slide.active {
+	display: block;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	font-size: 24pt;
+	border-bottom: solid black 1px;
+	text-align: center;
+	border-bottom: 1px solid #333;
+	padding: 26px;
+	font-family: 'Roboto', serif;
+	color: #fff;
+}
+
+body, html {
+	margin: 0 auto;
+	padding: 0 auto;
 }
