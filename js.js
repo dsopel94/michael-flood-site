@@ -14,8 +14,8 @@ $('.next').click(function() {
 	currentSlide.fadeOut(300).removeClass('active');
 	nextSlide.fadeIn(300).addClass('active');
 
-	if(nextSlide.length ==0) {
-		$('.slide').first().fadeIn(300).addClass('active')
+	if(nextSlide.length == 0) {
+		$('.slide:nth-child(1)').fadeIn(300).addClass('active')
 	}
 	pauseSlides();
 });
@@ -61,4 +61,6 @@ function pauseSlides() {
 
 $(document).ready(function() {
 	startSlides();
+	initMap2();
+	initMap3();
 });
