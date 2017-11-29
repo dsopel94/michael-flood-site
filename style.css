@@ -121,6 +121,16 @@ hr {
 	width: 800px;
 }
 
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a::hover {
+	text-decoration: none;
+	color: #fff;
+}
+
 .checkmark {
 	height: 50px;
 	width: 50px;
@@ -131,6 +141,11 @@ hr {
     margin-left: 6%;
     font-size: 1.5em;
     margin-right: 6%;
+}
+
+h4 {
+	font-family: 'Arvo', serif;
+	text-align: center;
 }
 
 .about-me-header {
