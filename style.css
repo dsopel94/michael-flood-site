@@ -204,7 +204,7 @@ h4 {
 }
 
 .desc {
-	font-size: 20pt;
+	font-size: 24pt;
 	font-family: 'Work Sans', serif;
 	margin-left: 10px;
 	position: absolute;
@@ -279,8 +279,8 @@ ul {
 	font-size: 24pt;
 	border-bottom: solid black 1px;
 	text-align: center;
+	padding: 20px;
 	border-bottom: 1px solid #333;
-	padding: 26px;
 	font-family: 'Roboto', serif;
 	color: #fff;
 }
@@ -288,4 +288,13 @@ ul {
 body, html {
 	margin: 0 auto;
 	padding: 0 auto;
+}
+
+.locations-header h3 {
+	margin-top: 20px;
+}
+
+@media (min-width: 769px) {
+
+
 }
