@@ -1,12 +1,3 @@
-.navbar {
-	height: 150px;
-	margin-bottom: 1px;
-	background-color: #F4F3EE;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	opacity: 0;
-}
 
 .hamburger-icon {
 	height: 90px;
@@ -22,43 +13,6 @@
 	height: 10px;
 	width: 60px;
 	margin: 10px 0;
-}
-
-.map-icon, .calendar-icon, .phone-icon {
-	height: 75px;
-	margin-bottom: 7px;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-	opacity: 1;
-}
-
-.phone-icon {
-	width: 80px;
-	margin-left: 25%;
-}
-
-.map-icon {
-	margin-left: 20%;
-}
-
-.nothing {
-	background-color: grey;
-	height: 1500px;
-}
-
-.icon-container {
-	display: inline-block;
-	margin: 0px 20px;
-}
-
-.other-icons {
-	display: inline-block;
-	margin-left: 70px;
-}
-
-.calendar-icon {
-	margin-left: 30%;
 }
 
 .locations, .appointments, .contact-us {
@@ -231,6 +185,8 @@ h4 {
 .prev {
 	left: 5px;
 }
+
+* { padding: 0; margin: 0;}
 
 .next {
 	right: 5px;
