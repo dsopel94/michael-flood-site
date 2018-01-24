@@ -36,7 +36,7 @@
 
 .header {
 	background:#DBE6E9;
-	width: 1001px;
+	width: 100%;
 }
 
 hr {
@@ -66,7 +66,6 @@ hr {
 	background-color: snow;
 	margin: 0;
 	padding: 0;
-	width:1000px;
 }
 
 .services {
@@ -95,27 +94,48 @@ a::hover {
     margin-left: 6%;
     font-size: 1.5em;
     margin-right: 6%;
+		margin-top: 40px;
+		margin-bottom: 20px;
+}
+
+.intro {
+	font-family: 'Arial', sans-serif;
+	margin-left: 6%;
+	margin-right: 6%;
+	font-size: 1.5em;
+	margin-right: 25%;
+	margin-top: 40px;
 }
 
 h4 {
-	font-family: 'Arvo', serif;
+	font-family: 'Arial', serif;
 	text-align: center;
+	margin-bottom: 30px
+}
+
+.edu-exp-header {
+	font-size: 30pt;
+	margin-top: 40px;
+}
+
+.content.first {
+	margin-top: 40px;
 }
 
 .about-me-header {
 	text-align: center;
-	font-family: 'Arvo', serif;
+	font-family: 'Helvetica';
 	font-size: 30pt;
 	margin: 0 auto;
 	padding: 40px;
 }
 
-.services-header {
+.services-header, .insurance-header {
 	text-align: center;
-	font-family: 'Arvo', serif;
+	font-family: 'Arial', serif;
 	font-size: 30pt;
 	margin: 0 auto;
-	padding: 10px;
+	padding-top: 30px;
 }
 
 #map-1, #map-2, #map-3 {
@@ -126,7 +146,7 @@ h4 {
 
 .address-1, .address-2, .address-3 {
 	text-align: center;
-	font-family: 'Arvo', serif;
+	font-family: 'Arial', serif;
 	font-size: 18pt;
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -138,12 +158,13 @@ h4 {
 
 .locations-header {
 	text-align: center;
-	font-family: 'Arvo', serif;
+	font-weight: bold;
+	font-family: 'Arial', serif;
 	font-size: 30pt;
 	margin: 0 auto;
 	padding: 10px;
 	margin-bottom: 20px;
-	margin-top: 20px;
+	padding-top: 30px;
 }
 
 .services li {
@@ -196,8 +217,7 @@ h4 {
 	position: relative;
 	opacity: 80%;
 	height: 400px;
-	max-width: 1000px;
-	width: 1000px;
+	width: 100%;
 }
 
 .slide {
@@ -205,7 +225,7 @@ h4 {
 	display: none;
 }
 
-.slide-container img {
+.slides img {
 	width: 1000px;
 	height: 400px;
 }
@@ -215,7 +235,7 @@ h4 {
 }
 
 .hours-1-header, .mon, .tue, .wed, .thu, .fri {
-	font-family: 'Arvo', serif;
+	font-family: 'Arial', serif;
 	font-size: 18px;
 	text-align: center;
 }
@@ -272,11 +292,10 @@ body, html {
 	background-color: white;
 }
 
-
 .content {
 	margin-top: 80px;
 }
-.content::before {
+.content::before, .marker {
 	border-radius: 50%;
 	height: 20px;
 	width: 20px;
@@ -284,18 +303,29 @@ body, html {
 	content: '';
 	border: 4px solid #6A8471;
 	z-index: 1;
-	display: block;
 	position: absolute;
 	left: -16px;
 }
 
-.content h2 {
+.marker {
+	left: 89px;
+}
+
+
+.year {
  	margin-left: 100px;
 	color: gray;
 	font-size: 4em;
-	font-family: 'Arvo', serif;
+	font-family: 'Arial', serif;
 	line-height: 20px;
-	margin-top: 20px;
+}
+
+.content:last-child {
+	margin: 0px;
+}
+
+.content::before:last-child {
+	margin-left: 500px;
 }
 
 .education {
@@ -314,9 +344,29 @@ body, html {
 	margin-top: 20px;
 }
 
+@media only screen and (min-width: 768px) and (max-width:1223px) {
+.header {
+	width: 100%;
+}
 
+.slides img {
+	width: 1050px;
+}
 
-@media (min-width: 769px) {
+.hours-1-header, .mon, .tue, .wed, .thu, .fri {
+font-size: 31pt;
+}
 
+}
 
+@media only screen and (min-width: 1224px) {
+	.slides img {
+		width:1366px;
+	}
+}
+
+@media screen and (min-width:1367px) and (max-width: 1500px) {
+	.slides img {
+		width: 1400px;
+	}
 }
