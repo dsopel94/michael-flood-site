@@ -18,13 +18,17 @@
 
 .locations, .appointments, .contact-us {
 	display: block;
-	font-size: 20pt;
+	font-size: 17pt;
 	font-family: 'Work Sans', serif;
 }
 
-.locations {
+.locations, .locations-more {
 	background-color: #d5e1df;
 	width: 100%;
+}
+
+.locations-more {
+	padding-top: 164px;
 }
 
 .header img {
@@ -76,6 +80,10 @@ hr {
 	width: 100%;
 }
 
+.more {
+	padding-top: 164px;
+}
+
 a {
 	text-decoration: none;
 	color: #fff;
@@ -104,7 +112,7 @@ a::hover {
 	font-family: 'Arial', sans-serif;
 	margin-left: 6%;
 	margin-right: 6%;
-	font-size: 1.5em;
+	font-size: 13pt;
 	margin-right: 25%;
 	margin-top: 40px;
 }
@@ -116,7 +124,7 @@ h4 {
 }
 
 .edu-exp-header {
-	font-size: 30pt;
+	font-size: 20pt;
 	margin-top: 40px;
 }
 
@@ -136,7 +144,7 @@ h4 {
 .services-header, .insurance-header {
 	text-align: center;
 	font-family: 'Arial', serif;
-	font-size: 20pt;
+	font-size: 17pt;
 	margin: 0 auto;
 }
 
@@ -162,7 +170,7 @@ h4 {
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Arial', serif;
-	font-size: 20pt;
+	font-size: 17pt;
 	margin: 0 auto;
 	padding: 10px;
 	margin-bottom: 20px;
@@ -234,6 +242,7 @@ h4 {
 
 .slide.active {
 	display: block;
+	width: 100%;
 }
 
 .hours-1-header, .mon, .tue, .wed, .thu, .fri {
@@ -274,7 +283,7 @@ body, html {
 }
 
 .locations-header h3 {
-	margin-top: 20px;
+	margin-top: 200px;
 }
 
 .footer {
@@ -287,8 +296,8 @@ body, html {
 }
 
 .timeline {
-	border-left: 5px solid #d1d1d1;
-	margin-left: 100px;
+	border-left: 3px solid #d1d1d1;
+	margin-left: 40px;
 	position: relative;
 	margin-top: 50px;
 	background-color: white;
@@ -299,27 +308,26 @@ body, html {
 }
 .content::before, .marker {
 	border-radius: 50%;
-	height: 20px;
-	width: 20px;
+	height: 10px;
+	width: 10px;
 	background-color: white;
 	content: '';
 	border: 4px solid #6A8471;
 	z-index: 1;
 	position: absolute;
-	left: -16px;
+	left: -11px;
 }
 
 .marker {
 	left: 89px;
 }
 
-
 .year {
- 	margin-left: 100px;
-	color: gray;
-	font-size: 4em;
-	font-family: 'Arial', serif;
-	line-height: 20px;
+margin-left: 75px;
+    color: gray;
+    font-size: 29pt;
+    font-family: 'Arial', serif;
+    line-height: 18pt;
 }
 
 .content:last-child {
@@ -332,43 +340,81 @@ body, html {
 
 .education {
 	font-weight: bold;
-	font-family: 'Arial', sans-serif;
-	font-size: 28pt;
-	margin-left: 100px;
-	margin-top: 25px;
-	width: 75%;
+font-family: 'Arial', sans-serif;
+font-size: 12pt;
+margin-left: 75px;
+margin-top: 25px;
+width: 75%;
 }
 
 .more-info {
 	font-family: 'Arial', sans-serif;
-	font-size: 1em;
-	margin-left: 100px;
-	margin-top: 20px;
+    font-size: 1em;
+    margin-left: 75px;
+    margin-top: 20px;
 }
 
-@media only screen and (min-width: 768px) and (max-width:1223px) {
+@media only screen and (min-width: 768px) and (max-width:1222px) {
+.header img {
+	height: 87px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 132px;
+    margin-left: 2%;
+    position: relative;
+}
+
 .header {
-	width: 100%;
+	height: 80px;
 }
 
 .slides img {
-	width: 1050px;
+	width: 100%;
+}
+
+.slides {
+	background-size: 100% 100%;
 }
 
 .hours-1-header, .mon, .tue, .wed, .thu, .fri {
 font-size: 31pt;
 }
 
+.menu li {
+	padding: 12px;
+	font-size: 13pt;
 }
 
-@media only screen and (min-width: 1224px) {
-	.slides img {
-		width:1366px;
-	}
+.slides img {
+	height: 213px;
 }
 
-@media screen and (min-width:1367px) and (max-width: 1500px) {
-	.slides img {
-		width: 1400px;
-	}
+.about-me {
+	margin-top: 235px;
+}
+
+.hours-1-header, .mon, .tue, .wed, .thu, .fri {
+    font-size: 24pt;
+}
+
+.prev, .next {
+	top: 77px;
+}
+
+.flood-img {
+    display: block;
+    width: 40%;
+    margin: auto;
+    height: 210px;
+    width: 50%;
+}
+
+.locations-more {
+	padding: 208px;
+}
+
+.more {
+	padding: 238px;
+}
+
 }
