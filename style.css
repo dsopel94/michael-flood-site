@@ -87,14 +87,14 @@ a::hover {
 }
 
 .checkmark {
-	height: 50px;
-	width: 50px;
+    height: 25px;
+    width: 25px;
 }
 
 .about-me p {
 	font-family: 'Arial', sans-serif;
     margin-left: 6%;
-    font-size: 1.5em;
+    font-size: 13pt;
     margin-right: 6%;
 		margin-top: 40px;
 		margin-bottom: 20px;
@@ -127,7 +127,7 @@ h4 {
 .about-me-header {
 	text-align: center;
 	font-family: 'Helvetica';
-	font-size: 20pt;
+	font-size: 17pt;
 	margin: 0 auto;
 	margin-top:167px;
 	margin-bottom: 20px
@@ -136,9 +136,8 @@ h4 {
 .services-header, .insurance-header {
 	text-align: center;
 	font-family: 'Arial', serif;
-	font-size: 30pt;
+	font-size: 20pt;
 	margin: 0 auto;
-	padding-top: 30px;
 }
 
 #map-1, #map-2, #map-3 {
@@ -156,14 +155,14 @@ h4 {
 }
 
 .address-2, .address-3 {
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .locations-header {
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Arial', serif;
-	font-size: 30pt;
+	font-size: 20pt;
 	margin: 0 auto;
 	padding: 10px;
 	margin-bottom: 20px;
@@ -182,11 +181,11 @@ h4 {
 }
 
 .desc {
-	font-size: 24pt;
-	font-family: 'Work Sans', serif;
-	margin-left: 10px;
-	position: absolute;
-	top: 24%;
+	font-size: 14pt;
+    font-family: 'Work Sans', serif;
+    margin-left: 11px;
+    position: absolute;
+    top: 6%;
 }
 
 .next {
