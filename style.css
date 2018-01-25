@@ -8,6 +8,17 @@
     transform: translateY(83%);
 }
 
+.landing {
+	display: block;
+	padding-top: 125px;
+}
+
+.snippet span {
+	margin-bottom: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 body, html {
     margin: 0 !important;
     padding: 0 !important;
@@ -17,16 +28,20 @@ body, html {
   	background-size: cover;
 }
 
+.last {
+	padding-top: 40px;
+}
+
 .footer {
-  right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem
+	width:100%;
+	display: block;
   background-color: #efefef;
   text-align: center;
 }
 
-.footer h4 {
+.footer p {
 	padding-top: 5px;
 }
 
@@ -57,10 +72,6 @@ html {
 .locations, .locations-more {
 	background-color: #d5e1df;
 	width: 100%;
-}
-
-.locations-more {
-	padding-top: 164px;
 }
 
 .header img {
@@ -98,12 +109,13 @@ hr {
     margin: auto;
     height: 176px;
     width: 67%;
+		margin-bottom: 10px;
+		margin-top: 10px;
 }
 
 .about-me {
 	background-color: snow;
 	margin: 0;
-	padding: 0;
 }
 
 .services {
@@ -169,7 +181,7 @@ h4 {
 	font-family: 'Helvetica';
 	font-size: 17pt;
 	margin: 0 auto;
-	margin-top:167px;
+	padding-top:50px;
 	margin-bottom: 20px
 }
 
@@ -396,6 +408,15 @@ width: 75%;
     position: relative;
 }
 
+.services ul {
+	margin-left: 25%;
+}
+
+.intro-info {
+	margin-left: 3%;
+	text-align: center;
+}
+
 .header {
 	height: 80px;
 }
@@ -421,8 +442,9 @@ font-size: 31pt;
 	height: 213px;
 }
 
-.about-me {
-	margin-top: 235px;
+.snippet {
+	padding-bottom: 20px;
+	width: 40%;
 }
 
 .hours-1-header, .mon, .tue, .wed, .thu, .fri {
@@ -433,16 +455,27 @@ font-size: 31pt;
 	top: 77px;
 }
 
+.intro-info {
+	width: 60%;
+	margin-left: 21%;
+}
+
 .flood-img {
     display: block;
     width: 40%;
     margin: auto;
     height: 210px;
+		margin-top: 20px;
+		margin-bottom: 20px;
     width: 50%;
 }
 
 .locations-more {
-	padding: 208px;
+	padding-bottom: 10px;
+}
+
+.services-header {
+	padding-top: 20px;
 }
 
 .more {
@@ -451,6 +484,10 @@ font-size: 31pt;
 
 .navbar {
 	display: none;
+}
+
+.landing {
+	padding-top: 186px;
 }
 
 }
@@ -582,10 +619,6 @@ top: 11%;
 	margin-right: 30%;
 }
 
-.about-me {
-	padding-top: 250px;
-}
-
 .location {
 	display: inline-block;
 	width: 25%;
@@ -637,6 +670,15 @@ top: 11%;
 }
 
 .locations-more {
+    padding-bottom: 25px;
+    padding-left: 6%;
+}
+
+.locations {
+	padding-bottom: 25px;
+}
+
+.landing {
 	padding-top: 410px;
 }
 
