@@ -8,6 +8,38 @@
     transform: translateY(83%);
 }
 
+body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+    height: 100% 100%;
+    box-sizing: border-box;
+  	background-size: cover;
+}
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem
+  background-color: #efefef;
+  text-align: center;
+}
+
+.footer h4 {
+	padding-top: 5px;
+}
+
+html {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	display: none;
+}
+
 .line {
 	color: black;
 	background-color: black;
@@ -279,7 +311,6 @@ body, html {
     height: 100% 100%;
     box-sizing: border-box;
   	background-size: cover;
-  	border: 1px black;
 }
 
 .locations-header h3 {
@@ -287,7 +318,7 @@ body, html {
 }
 
 .footer {
-	height: 50px;
+	height: 30px;
 	background-color: gray;
 }
 
@@ -301,6 +332,7 @@ body, html {
 	position: relative;
 	margin-top: 50px;
 	background-color: white;
+	margin-bottom: 30px;
 }
 
 .content {
@@ -354,7 +386,7 @@ width: 75%;
     margin-top: 20px;
 }
 
-@media only screen and (min-width: 768px) and (max-width:1222px) {
+@media only screen and (min-width: 768px) and (max-width:1099px) {
 .header img {
 	height: 87px;
     display: inline-block;
@@ -415,6 +447,197 @@ font-size: 31pt;
 
 .more {
 	padding: 238px;
+}
+
+.navbar {
+	display: none;
+}
+
+}
+
+@media screen and (min-width: 1100px) {
+	.hamburger-icon {
+		display: none;
+	}
+
+.navbar {
+	float: right;
+}
+
+.navbar li {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar ul {
+    margin-top: 33px;
+    margin-right: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    margin-left: 18px;
+}
+.header img {
+	height: 80px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 115px;
+	margin-left: 3%;
+	position: relative;
+}
+
+.navbar a {
+	color: lightslategray;
+}
+
+.navbar a:hover {
+	color: #FFFFFF;
+}
+
+.current-page {
+		border-bottom: 2px solid black;
+    padding-bottom: 1px;
+}
+.prev, .next {
+		cursor: pointer;
+    position: absolute;
+    width: auto;
+    color: dimgray;
+    font-weight: bold;
+    font-size: 58px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    top: 128px;
+}
+
+.slides img {
+	height: 400px;
+}
+
+.flood-img {
+    display: block;
+    width: 34%;
+    margin: auto;
+    height: 263px;
+    display: inline-block;
+    margin-left: 8%;
+    margin-bottom: 3%;
+}
+
+.snippet {
+	float: right;
+	width: 27%;
+	text-align: left;
+	margin-right: 24%;
+	margin-top: 3%;
+  font-family: "Arial", serif;
+	font-size: 13pt;
+}
+
+.extra
+.services-header, .about-me-header, .locations-header, .edu-exp-header {
+text-align: center;
+font-family: 'Arial';
+font-size: 17pt;
+margin-bottom: 20px;
+font-weight: lighter;
+color: black
+}
+
+.services-header {
+	padding-top: 20px;
+}
+
+.about-me-header h3 {
+	position: absolute;
+right: 32%;
+bottom: -40px;
+}
+
+.desc {
+font-size: 11pt;
+font-family: 'Work Sans', serif;
+margin-left: 11px;
+position: absolute;
+top: 11%;
+}
+
+.services li {
+    padding: 10px;
+    list-style: none;
+    margin: 0 auto;
+    margin-left: 42%;
+}
+
+.services-header {
+	margin-bottom: 5px;
+}
+
+.locations-header {
+	margin-bottom: 10px;
+	margin-left: 20%;
+	margin-right: 30%;
+}
+
+.about-me {
+	padding-top: 250px;
+}
+
+.location {
+	display: inline-block;
+	width: 25%;
+}
+
+.address-1, .address-2, .address-3 {
+	font-size: 13pt;
+}
+
+.locations {
+	padding-left: 5%;
+}
+
+.location {
+	margin-right: 5%;
+}
+
+.address-1, ,.address-2, .address-3 {
+	margin-top: 23px;
+}
+
+.navbar {
+	display: inline-block;
+}
+
+.edu-exp-info {
+	display: block;
+}
+
+.intro {
+	margin-left: 40%;
+	margin-right: 25%;
+}
+
+.timeline {
+	margin-left: 40%;
+}
+
+.left {
+	transform: translateX(-45%);
+}
+
+.content:last-child {
+	margin-top: 40px;
+}
+
+.staff {
+	margin-top: 1%;
+}
+
+.locations-more {
+	padding-top: 410px;
 }
 
 }

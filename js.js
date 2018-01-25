@@ -3,6 +3,11 @@ $(function(event) {
 		$(".menu").slideToggle("slow");
 		console.log("clicked")
 	});
+
+	$('.nav a').click(function(e) {
+		$('.nav a').removeClass('current-page');
+		$(this).addClass('current-page');
+	})
 });
 
 var start = null;
