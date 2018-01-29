@@ -6,7 +6,7 @@ $(function(event) {
 
 	$('.nav a').click(function(e) {
 		$('.nav a').removeClass('current-page');
-		$(this).addClass('current-page');
+		$(this).addClass('current-paage');
 	})
 });
 
@@ -66,4 +66,6 @@ function pauseSlides() {
 
 $(document).ready(function() {
 	startSlides();
+	initMap2();
+	initMap3();
 });
