@@ -178,7 +178,7 @@ h4 {
 
 .about-me-header {
 	text-align: center;
-	font-family: 'Helvetica';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 17pt;
 	margin: 0 auto;
 	padding-top:50px;
@@ -577,7 +577,7 @@ font-size: 31pt;
 .extra
 .services-header, .about-me-header, .locations-header, .edu-exp-header {
 text-align: center;
-font-family: 'Arial';
+font-family: 'Open Sans', sans-serif;
 font-size: 17pt;
 margin-bottom: 20px;
 font-weight: lighter;

@@ -66,6 +66,4 @@ function pauseSlides() {
 
 $(document).ready(function() {
 	startSlides();
-	initMap2();
-	initMap3();
 });
